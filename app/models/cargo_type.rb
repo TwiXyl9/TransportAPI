@@ -1,0 +1,2 @@
+class CargoType < ApplicationRecord
+end
