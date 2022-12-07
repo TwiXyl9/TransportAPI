@@ -28,7 +28,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_07_164944) do
 
   create_table "capacities", force: :cascade do |t|
     t.float "width"
-    t.float "heigth"
+    t.float "height"
     t.float "length"
     t.float "num_of_pallets"
     t.datetime "created_at", null: false
