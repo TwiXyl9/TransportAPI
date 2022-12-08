@@ -3,7 +3,6 @@ class Api::V1::ServicesController < ApplicationController
 
   def index
     @services = AdditionalService.all
-
     render json: @services
   end
 

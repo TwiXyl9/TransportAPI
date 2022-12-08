@@ -7,3 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 admin = Role.create!(name: 'admin')
 user = Role.create!(name: 'user')
+cargo_type = CargoType.create!(name: 'Pallets')
+delivery_type = DeliveryType.create!(name: "Fast", price: 10)
+capacity = Capacity.create!(width: 3, height: 3, length: 6, num_of_pallets: 10)
+car = Car.create!(brand: 'Iveco', model: 'TurboDaily', capacity: capacity)

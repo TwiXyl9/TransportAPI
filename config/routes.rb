@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :capacity
       resources :cars
       resources :services
+      resources :orders
     end
   end
 end
