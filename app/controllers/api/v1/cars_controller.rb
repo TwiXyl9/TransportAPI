@@ -7,7 +7,7 @@ class Api::V1::CarsController < ApplicationController
   end
 
   def show
-    render json: @cars
+    render json: @car
   end
 
   def create
@@ -38,6 +38,6 @@ class Api::V1::CarsController < ApplicationController
   end
 
   def car_params
-    params.require(:car).permit(:brand, :model, :capacity_id)
+    params.permit(:brand, :model, :capacity_id)
   end
 end
